@@ -27,7 +27,9 @@
       {"@type": "CollegeOrUniversity", "name": "Shanghai Ocean University", "department": "School of Engineering"},
       {"@type": "CollegeOrUniversity", "name": "University of Tsukuba", "department": "Social Engineering"}
     ],
-    "url": "https://example.com",
+    "url": "https://liyu494.github.io",
+    "email": "mailto:yl971204223@gmail.com",
+    "image": "https://liyu494.github.io/profile.jpg",
     "sameAs": [
       "https://scholar.google.com/citations?user=v5vHX2MAAAAJ",
       "https://www.researchgate.net/profile/Yu-Li-421"
@@ -65,9 +67,9 @@
           <a href="https://www.researchgate.net/profile/Yu-Li-421" target="_blank" class="px-4 py-2 rounded-2xl border border-slate-300 font-semibold hover:bg-white">ResearchGate</a>
         </div>
       </div>
-      <div>
-        <div class="aspect-square w-48 h-48 md:w-56 md:h-56 rounded-[2rem] bg-gradient-to-br from-sky-100 to-indigo-100 border border-slate-200 shadow-inner mx-auto"></div>
-        <p class="sr-only">Profile image placeholder</p>
+      <div class="flex justify-center">
+        <!-- Avatar -->
+        <img src="profile.jpg" alt="Portrait of Yu Li" class="w-48 h-48 md:w-56 md:h-56 rounded-[2rem] object-cover border border-slate-200 shadow-inner" />
       </div>
     </div>
   </section>
@@ -106,13 +108,12 @@
         <a href="https://scholar.google.com/citations?user=v5vHX2MAAAAJ" target="_blank" class="text-sky-700 font-medium">View all on Google Scholar →</a>
       </div>
       <ol class="mt-6 space-y-6 list-decimal list-inside">
-        <!-- Replace with your real entries; samples below use safe placeholders from our chat context -->
         <li class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="font-semibold">Optimizing Long‑Term Carpooling with Fairness: A Collaborative Jaya Algorithm</div>
+          <div class="font-semibold">Optimizing Long-Term Carpooling with Fairness: A Collaborative Jaya Algorithm</div>
           <div class="text-sm text-slate-600">Accepted for presentation at MIWAI 2024.</div>
         </li>
         <li class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-          <div class="font-semibold">Multi‑Objective Optimization for Shared Autonomous Vehicle Operation and Infrastructure Design</div>
+          <div class="font-semibold">Multi-Objective Optimization for Shared Autonomous Vehicle Operation and Infrastructure Design</div>
           <div class="text-sm text-slate-600">Manuscript in preparation.</div>
         </li>
         <li class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
@@ -120,12 +121,6 @@
           <div class="text-sm text-slate-600">Under review.</div>
         </li>
       </ol>
-      <details class="mt-6">
-        <summary class="cursor-pointer text-sky-700">How to add more publications</summary>
-        <div class="mt-3 text-slate-700 leading-7">
-          Add more entries by duplicating the <code>&lt;li&gt;</code> blocks above. You can paste BibTeX below and edit manually, or link to PDFs.
-        </div>
-      </details>
     </div>
   </section>
 
@@ -192,14 +187,15 @@
       <div class="mt-6 grid md:grid-cols-2 gap-6">
         <div class="p-5 rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="text-sm text-slate-500">Email</div>
-          <div class="font-medium">(add your email here)</div>
+          <div class="font-medium">
+            <a href="mailto:yl971204223@gmail.com" class="underline">yl971204223@gmail.com</a>
+          </div>
         </div>
         <div class="p-5 rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div class="text-sm text-slate-500">Profiles</div>
           <div class="flex flex-wrap gap-2 mt-1">
             <a href="https://scholar.google.com/citations?user=v5vHX2MAAAAJ" target="_blank" class="underline">Google Scholar</a>
             <a href="https://www.researchgate.net/profile/Yu-Li-421" target="_blank" class="underline">ResearchGate</a>
-            <!-- Add more: ORCID, GitHub, LinkedIn -->
           </div>
         </div>
       </div>
